@@ -1,0 +1,191 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link for cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="Logo.jpg" alt="">HOTEL</a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#global">About</a></li>
+                    <li><a href = "#facility-1">Facilities</a></li>
+                    <li><a href = "#reviews">Reviews</a></li>
+                    <li><a href = "#footer">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <section class = "text-box">
+            <h1>World's best Hotel</h1>
+            <p>To fulfill your choice is our dream.We committed for your happiness.</p>
+            <a href="#" class = "hero-btn">Visit to feel us</a>
+        </section>
+    </header>
+    <!-- course section menu  -->
+    <section class="course" id ="course-1" >
+        <h1>Facilities we offer</h1>
+        <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the best proof that the language </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Accommodation</h3>
+                <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret."</p>
+            </div>
+            <div class="course-col">
+                <h3>Reservation</h3>
+                <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the</p>
+            </div>
+            <div class="course-col">
+                <h3>Spa & Wellness </h3>
+                <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," </p>
+        </div>
+        </div>
+    </section>
+    <!-- campus section  -->
+    <section class="campus course" id="global">
+        <h1>our global cloister</h1>
+        <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the best proof that the language is patriarchal is that</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="Thailand.jpg" alt="">
+                <div class="layer">
+                    <h1>DUBAI</h1>
+                </div>
+
+            </div>
+            <div class="campus-col">
+                <img src="Singapore.jpg" alt="">
+                <div class="layer">
+                    <h1>SINGAPORE</h1>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="INDIA.jpg" alt="">
+                <div class="layer">
+                    <h1>INDIA</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FACILITIES -->
+   <!-- facilities like the Wedding Hall, POOL and GYM,BAR  -->
+   <div class="facilities course">
+       <h1>Our Amenity</h1>
+       <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the best proof that the language is patriarchal is that</p>
+       <div class="row">
+           <div class="facilities-col campus-col">
+               <img src="Wedding_Dinner.jpg" alt="">
+               <div class="layer">
+                   <h1>Dinner Hall</h1>
+               </div>
+           </div>
+           <div class="facilities-col campus-col">
+            <img src="Gym.jpg" alt="">
+            <div class="layer">
+                <h1>GYM</h1>
+            </div>
+        </div>
+        <div class="facilities-col campus-col">
+            <img src="pool.jpg" alt="">
+            <div class="layer">
+                <h1>POOL</h1>
+            </div>
+        </div>
+       </div>
+   </div>
+   <!-- tstimonials section -->
+   <section class="testmonials course" id="reviews">
+       <h1>What our client says</h1>
+       <p> “Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe'”</p>
+       <div class="row">
+           <div class="testimonials-col">
+                <img src="profile1.jpg" alt="">
+               <div class="intro">
+                   <p> Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret."  </p>
+                   <h3>Charles cook</h3>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+           </div>
+           <div class="testimonials-col ">
+            <img src="Profile2.jpg" alt="">
+            <div class="intro">
+                <p> Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the best proof that the language is patriarchal is that</p>
+                <h3>Partheeban bay </h3>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            </div>
+        <div class="testimonials-col">
+            <img src="profile3.jpg" alt="">
+            <div class="intro">
+                <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." </p>
+                <h3>Dr.john alley</h3>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            </div>
+       </div>
+   </section>
+   <!-- call to action -->
+   <div class="cta course">
+       <h1>Book for our various amazing resource </h1>
+       <p>World's leading chain of hotels and homes
+Join our network and grow your business</p>
+       <a href="#" class = "hero-btn">Contact us </a>
+   </div>
+   <footer id="footer">
+       <div class="about-us">
+           <h1>About us </h1>
+           <p>Emotions, in my experience, aren't covered by single words. I don't believe in "sadness," "joy," or "regret." Maybe the best proof that the language is patriarchal is that it oversimplifies feeling. I'd like to have at my disposal complicated hybrid emotions, Germanic train-car constructions like, say, "the happiness that attends disaster." </p>
+
+        </div>
+        <div class="address">
+            <p class="institution-address"><i class="fas fa-home"></i> The Comapany name
+            <br>State, City. <br>INDIA</p>
+            <p class="phone"><i class="fas fa-phone"></i> 2110006789</p>
+            <p class="mail"><i class="fas fa-envelope"></i> cab@gmal.com</p>
+
+        </div>
+
+   </footer>
+   <p class="copy">&copy; Developer : Chandrajeet Jha</p>
+   <!-- social handles position  -->
+   <div class="social">
+       <div class="instagram">
+           <a href="#">INSTAGRAM <i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="facebook">
+            <a href="#">FACEBOOK <i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="twitter">
+            <a href="#">TWITTER <i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="linkedin">
+            <a href="#">LINKEDIN <i class="fab fa-linkedin"></i></a>
+        </div>
+   </div>
+        </div>
+   <script src="script.js"></script>
+</body>
